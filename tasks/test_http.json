@@ -1,0 +1,22 @@
+[
+  {
+    "name":"test-http",
+    "image":"tenzer/http-echo-test",
+    "cpu":10,
+    "memory":512,
+    "links":[],
+    "portMappings":[
+      {
+        "containerPort":8080,
+        "hostPort":80,
+        "protocol":"tcp"
+      }
+    ],
+    "essential":true,
+    "entryPoint":[],
+    "command":[],
+    "environment":[],
+    "mountPoints":[],
+    "volumesFrom":[]
+  }
+]
